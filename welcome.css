@@ -1,0 +1,76 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url('../assests/scrub.jpeg') center/cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+            
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #009688;
+            
+}
+
+.statistics {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.box {
+     background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 30%;
+}
+ .box:hover {
+    background-color: #f0f0f0;
+}
+
+.box h2 {
+    margin-bottom: 10px;
+    color: #009688;
+}
+
+.box p {
+   font-size: 18px;
+    color: #666;
+    margin: 0;
+}
+
+.chore-details {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.chore {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 300px;
+}
+
+.chore h3 {
+    margin-bottom: 10px;
+    color: #009688;
+}
+
+.chore p {
+    margin: 0;
+    color: #666;
+}
+   
